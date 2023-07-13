@@ -9,7 +9,6 @@ function Pokedex({name}) {
    
 
     useEffect(()=> {
-        console.log("use effect ran")
         // prevents fetch triggering befor it has pokemon value
         if(name != ""){
         // Flag that stops execution of a console.log or other data append
